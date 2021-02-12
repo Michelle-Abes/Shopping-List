@@ -1,0 +1,92 @@
+body{
+  padding:0;
+  margin: 0;
+  background-image: url("https://www.freecodecamp.org/news/content/images/size/w2000/2020/04/w-qjCHPZbeXCQ-unsplash.jpg");
+}
+
+ul {
+	list-style-type:circle;
+	padding-left: 10px; 
+}
+
+header {
+	font-family: 'Pacifico', cursive;
+	font-size: 2em;
+  	max-width: 980px;
+  	padding-top: 5%;
+	margin: auto;
+	text-align: center;
+  	color: #6C003D;
+}
+
+
+section {
+	max-width: 50%;
+	text-align: left;
+	margin: 0 auto;
+	padding-left: 25%;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+    color: mediumvioletred;
+}
+
+ul li {
+	opacity: 1;
+	cursor: pointer;
+
+}
+
+li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #6C003D;
+	padding: 5px;
+}
+
+input {
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 4px 6px 23px -2px rgba(60, 144, 240, 0.71);
+}
+
+button {
+	padding: 10px 20px 10px 20px;
+	margin: 5px;
+	border: none;
+	background-color:#C42A8E; 
+  	color: aliceblue;
+	border-radius: 5px;
+	box-shadow: 4px 6px 23px -2px rgba(60, 144, 240, 0.71);
+}
+
+button:hover {
+	cursor: pointer;
+  text-decoration:solid;
+}
+
+*:focus {
+  outline: none;
+}
+
+.background-wrapper {
+	max-width: 50%;
+	border-radius: 5px;
+	opacity: 0.8;
+}
+
+/* .div{
+  display: flex;
+} */
+
+/* .li-wrapper {
+	display: flex;
+	align-items: center;
+	margin: 5px;
+} */
+
+.done {
+  text-decoration: line-through;
+}
+
